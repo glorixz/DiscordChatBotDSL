@@ -1,0 +1,5 @@
+CONVO goodbye {
+	IF (FALSE) {
+		BOT: "Bye"
+	}
+}

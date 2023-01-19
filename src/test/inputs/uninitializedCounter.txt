@@ -1,0 +1,2 @@
+COUNTER a = 0
+COUNTER b

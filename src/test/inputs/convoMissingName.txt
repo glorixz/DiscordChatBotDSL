@@ -1,0 +1,8 @@
+CONVO{
+#comment
+	BOT: "Hello" + @User.role
+	BOT : "What's your name (mine is Bot)"
+	USER: input_name
+	BOT: "Your name is " + input_name # this is a comment
+	START goodbye
+}

@@ -1,0 +1,10 @@
+CONVO while {
+     WHILE (TRUE) {
+        BOT: "Guess my name"
+        USER: bot_name
+
+        IF(bot_name IS "Bot") {
+            STOP
+        }
+    }
+}

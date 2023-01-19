@@ -1,0 +1,14 @@
+CONVO countdown {
+    BOT: "Starting countdown."
+    COUNTER c = 10
+    WHILE (NOT(c IS "0")) {
+        BOT: c
+        DECREMENT c
+    }
+    BOT: c
+    BOT: "liftoff!"
+}
+
+TRIGGERPHRASE ("countdown") {
+    START countdown
+}

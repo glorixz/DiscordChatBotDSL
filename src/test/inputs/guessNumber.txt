@@ -1,0 +1,31 @@
+CONVO guess {
+    BOT: "Guess what number I’m thinking?"
+    USER: input_number
+    WHILE (NOT(input_number IS "2")) {
+        BOT: "Enter a number"
+        USER: input_number
+    }
+    BOT: "Congrats!"
+}
+
+CONVO guess2 {
+    BOT: "Guess what number I’m thinking?"
+    WHILE (TRUE) {
+        BOT: "Enter a number"
+        USER: input_number
+        IF (input_number IS "2") {
+            STOP
+        }
+    }
+    BOT: "Congrats!"
+    BOT: "Do you want to do it again? y/n"
+    USER: again
+    IF (again IS "y") {
+        START guess
+    }
+}
+
+TRIGGERPHRASE ("guess") {
+	START guess
+	START guess2
+}

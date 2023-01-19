@@ -1,0 +1,3 @@
+CONVO hello {
+	BOT: "Hello" fdsfs
+}

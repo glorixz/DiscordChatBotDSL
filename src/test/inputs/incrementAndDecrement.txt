@@ -1,0 +1,19 @@
+COUNTER brownie-points = 0
+
+CONVO how-cool-r-u {
+	IF (@User.role IS "admin" ) {
+		BOT: "Hi, your role is admin"
+		INCREMENT brownie-points
+	}
+    ELSEIF (@User.role IS "brownie") {
+        BOT: "whatever"
+        INCREMENT brownie-points
+        INCREMENT brownie-points
+    }
+	ELSE {
+		BOT: "Hi, you’re not an admin...or a brownie"
+		DECREMENT brownie-points
+	}
+
+    BOT: brownie-points
+}

@@ -1,0 +1,12 @@
+CONVO goodbye {
+	BOT: "Time to go"
+	BOT : "OK? Answer yes or no"
+	USER: input_go
+	IF (input_go IS "yes") {
+		BOT: "Bye"
+	} ELSEIF (NOT(input_go IS "NO" AND @User.role IS "default")) {
+	    BOT: "Are you sure"
+	} ELSE {
+		BOT: "Never mind"
+    }
+}

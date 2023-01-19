@@ -1,0 +1,8 @@
+CONVO goodbye {
+	BOT: "Time to go"
+	BOT : "OK? Answer yes or no"
+	USER: input_go
+	IF (input_go IS) {
+		BOT: "Bye"
+	}
+}

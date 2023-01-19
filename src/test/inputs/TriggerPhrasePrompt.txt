@@ -1,0 +1,9 @@
+TRIGGERPHRASE ("let me guess your name") {
+	BOT: "what is my name?"
+	USER: name_guess
+	BOT: "your guess is" + name_guess
+
+	BOT: "what is my mother's maiden name?"
+	USER: name_maiden_guess
+	BOT: name_maiden_guess + " haha..."
+}

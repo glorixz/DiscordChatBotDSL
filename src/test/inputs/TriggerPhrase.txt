@@ -1,0 +1,3 @@
+TRIGGERPHRASE ("say hello") {
+	START hello
+}

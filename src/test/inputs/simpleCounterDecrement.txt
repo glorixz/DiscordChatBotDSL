@@ -1,0 +1,4 @@
+COUNTER a = 1
+CONVO hey {
+    DECREMENT a
+}
