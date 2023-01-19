@@ -1,5 +1,7 @@
 # CPSC 410 Group Project: Discord Bot DSL
 
+Contributors: Gloria Zhang, Heyisen Li, Catherine Li, Sam Hsu
+
 The DSL is designed for Discord users with some programming experience who want to create their own Discord Bot. The domain is on creating inputs and responses between users and the Bot.
 
 ## DSL specification
